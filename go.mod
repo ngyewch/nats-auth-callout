@@ -1,6 +1,6 @@
 module github.com/ngyewch/nats-auth-callout
 
-go 1.23
+go 1.22
 
 require (
 	github.com/nats-io/jwt/v2 v2.7.3
