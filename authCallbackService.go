@@ -2,10 +2,11 @@ package nats_auth_callout
 
 import (
 	"fmt"
+	"log/slog"
+
 	"github.com/nats-io/jwt/v2"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nkeys"
-	"log/slog"
 )
 
 const (
